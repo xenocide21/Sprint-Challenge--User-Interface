@@ -69,6 +69,32 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    /* border: 1px solid red; */
+}
+.navigation{
+    display:flex;
+    margin-top:20px;
+    margin-left:555px; /*edited */
+    margin-bottom:35px;
+    justify-content: space-between;
+    max-width: 800px;
+}
+
+.headimage{
+    margin-left:550px;
+    margin-bottom: 35px;
+}
+
+.navigation nav a{
+    text-decoration: none;
+    color: black;
+    margin-top:50px;
+    margin-left: 70px;
+    font-size: 11pt;
+}
+
+.navigation nav img{
+    margin-right: 20px;
 }
 
 .top-content {
@@ -104,7 +130,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +169,118 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* About CSS parts */
+
+.container1{
+    display:flex;
+    margin-top: 20px;
+    border-top: 1px dotted black;
+}
+
+.strategy{
+    margin-top: 20px;
+    border-bottom: 1px dotted grey;
+    border-bottom-width: 4px;
+    padding: 3px;
+    padding-bottom: 23px;
+    margin: 13px;
+}
+.hww{
+    margin-top: 20px;
+    border-bottom: 1px dotted grey;
+    border-bottom-width: 4px;
+    padding: 3px;
+    padding-bottom: 23px;
+    margin: 13px;
+}
+
+.pww{
+    margin-top: 20px;
+    border-bottom: 1px dotted grey;
+    border-bottom-width: 4px;
+    padding: 3px;
+    padding-bottom: 23px;
+    margin: 13px;
+}
+
+.col{
+    margin-top: 20px;
+    border-bottom: 1px dotted grey;
+    border-bottom-width: 4px;
+    padding: 3px;
+    padding-bottom: 23px;
+    margin: 13px;
+}
+
+.container1 div p{
+    margin-bottom: 14px;
+}
+
+.container2{
+    display:flex;
+    margin-top: 20px;
+}
+
+.strategy{
+    margin-top: 20px;
+}
+.hww{
+    margin-top: 20px;
+}
+
+.container2 div p{
+    margin-bottom: 14px;
+}
+
+
+
+.learn{
+    text-decoration: none;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.lwt{
+    padding: 10px;
+}
+
+h5{
+    margin-top:10px;
+}
+
+.box{
+    background: teal;
+}
+.box1{
+    background: gold;
+}
+.box2{
+    background: cadetblue;
+}
+.box3{
+    background: coral;
+}
+.box4{
+    background: crimson;
+}
+.box5{
+    background: forestgreen
+}
+.box6{
+    background: darkorchid;
+}
+.box7{
+    background: hotpink;
+}
+.box8{
+    background: indigo;
+}
+.box9{
+    background: dodgerblue;
 }
