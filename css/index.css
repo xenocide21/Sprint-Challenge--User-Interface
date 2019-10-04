@@ -130,7 +130,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -252,4 +252,35 @@ footer nav a {
 
 h5{
     margin-top:10px;
+}
+
+.box{
+    background: teal;
+}
+.box1{
+    background: gold;
+}
+.box2{
+    background: cadetblue;
+}
+.box3{
+    background: coral;
+}
+.box4{
+    background: crimson;
+}
+.box5{
+    background: forestgreen
+}
+.box6{
+    background: darkorchid;
+}
+.box7{
+    background: hotpink;
+}
+.box8{
+    background: indigo;
+}
+.box9{
+    background: dodgerblue;
 }
