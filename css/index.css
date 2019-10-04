@@ -74,14 +74,14 @@ p {
 .navigation{
     display:flex;
     margin-top:20px;
-    margin-left:270px;
+    margin-left:555px;
     margin-bottom:35px;
     justify-content: space-between;
     max-width: 800px;
 }
 
 .headimage{
-    margin-left:272px;
+    margin-left:550px;
     margin-bottom: 35px;
 }
 
